@@ -1,0 +1,5 @@
+export HF_ENDPOINT=https://hf-mirror.com
+
+python nvs_single.py --input_folder "example_imgs/" --folder_path "output/" --iteration any_trajectory --lr 0.02 --weight_clamp 0.2
+
+python nvs_multi.py --input_folder "example_imgs/" --folder_path "output/" --iteration any_trajectory --lr 0.02 --weight_clamp 0.2
